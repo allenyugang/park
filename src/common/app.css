@@ -1,0 +1,44 @@
+* { font-family: '微软雅黑'; }
+body {margin: 0px}
+input,input:focus,input:active{user-select: text;-webkit-user-select:text;zoom:1}
+html { font-size: 16px;}
+:root {
+    --hlyw-toolbar-font-color: #52526e;
+     --font-size-10: 0.1rem;
+     --font-size-15: 0.15rem;
+     --font-size-20: 0.2rem;
+     --font-size-25: 0.25rem;
+  
+ }
+.vant-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+  
+.vant-flex__item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+}
+input{
+    user-select: text !important;
+    -webkit-user-select:text !important;
+}
